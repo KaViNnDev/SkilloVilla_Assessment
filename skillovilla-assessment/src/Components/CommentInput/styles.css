@@ -1,0 +1,34 @@
+.comment-input-container{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.comment-input-img{
+    width: 30px;
+    height: 30px;
+}
+
+.comment-input-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+}
+
+.comment-input-img-placeholder{
+    width: 30px;
+    height: 30px;
+}
+
+.comment-input{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
+    flex: 1;
+}
+
+.comment-input:focus {
+    outline: none;
+}

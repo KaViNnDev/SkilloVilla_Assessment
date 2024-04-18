@@ -1,0 +1,49 @@
+.comment-section-overlay{
+    padding-left: 40px;
+    width: 100%;    
+}
+
+.comment-section-container{
+    display: flex;
+    gap: 5px;    
+    width: 100%;
+    padding-bottom: 10px;    
+}
+
+.comment-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.comment-section-img{
+    width: 30px;
+    height: 30px;
+}
+
+.comment-text-small {
+    color: gray;
+    font-size: 10px;
+}
+
+.comment-header-wrapper{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.comment-name{
+    font-size: 12px;
+    font-weight: bold;
+    color: blue;
+}
+
+.comment-section{
+    font-size: 14px;
+}
+
+.comment-reply{
+    cursor: pointer;
+    display: inline-block;    
+}
